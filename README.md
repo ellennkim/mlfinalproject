@@ -49,3 +49,12 @@ For each trace, timestamps are normalized to start at zero by subtracting the fi
 ```python
 t_normalized = t - t[0]
 
+## Random Forest Classification (Closed World vs Open World)
+
+This section trains and evaluates Random Forest models on both closed-world and open-world datasets. For each setting, the code:
+
+- Runs a RandomForestClassifier with fixed hyperparameters  
+- Performs 5-fold cross-validation  
+- Computes test accuracy  
+- Extracts the top 5 most important features  
+- Plots the top 20 feature importances
