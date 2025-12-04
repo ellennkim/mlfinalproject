@@ -45,10 +45,13 @@ This cleaning step is applied separately to monitored and unmonitored data.
 ### 3. Timestamp Normalization
 
 For each trace, timestamps are normalized to start at zero by subtracting the first timestamp:
-
 ```python
+
 t_normalized = t - t[0]
 
+```
+
+---
 ## Random Forest Classification (Closed World vs Open World)
 
 This section trains and evaluates Random Forest models on both closed-world and open-world datasets. For each setting, the code:
