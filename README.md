@@ -178,7 +178,7 @@ Based on the dataset size and computational complexity of the algorithms used, w
 Our analysis shows that **Random Forest** outperforms both SVM and KNN in both scenarios, achieving **84.2%** accuracy in the Closed World task and near-perfect **99.9%** accuracy in the Open World task.  
 It would be interesting to explore in future work the extent to which the Closed World performance could be further enhanced through rigorous hyperparameter tuning (e.g., via GridSearchCV) and by testing a broader range of hyperparameters such as tree depth and split criteria.
 
-Feature importance analysis reveals that **burst patterns** and **early packet timing** are the most critical indicators for 
+Feature importance analysis reveals that **burst patterns** and **early packet timing** are the most critical indicators for fingerprinting websites, suggesting that the initial handshake and loading phase contains the most distinguishing information. 
 
 
 
